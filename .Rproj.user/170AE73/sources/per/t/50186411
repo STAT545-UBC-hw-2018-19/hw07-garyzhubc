@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1542350287332.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1199966456",
+    "id" : "50186411",
+    "lastKnownWriteTime" : 1542350355,
+    "last_content_update" : 1542350355238,
+    "path" : "~/Desktop/hw07-garyzhubc/powers-master/R/bxtrans.R",
+    "project_path" : "powers-master/R/bxtrans.R",
+    "properties" : {
+        "cursorPosition" : "15,12",
+        "scrollLine" : "5"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

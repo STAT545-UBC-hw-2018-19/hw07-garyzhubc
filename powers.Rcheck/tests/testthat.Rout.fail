@@ -1,0 +1,35 @@
+
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin15.6.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(testthat)
+> library(powers)
+> 
+> test_check("powers")
+[31m──[39m [31m1. Error: bctrans_inv works on some particular values. (@t[39m
+all(y > 0) is not TRUE
+1: expect_identical(bctrans(c(0, 0, 0), 0, FALSE), c(1, 1, 1)) at testthat/test_bctrans.R:10
+2: quasi_label(enquo(object), label)
+3: eval_bare(get_expr(quo), get_env(quo))
+4: bctrans(c(0, 0, 0), 0, FALSE)
+5: stopifnot(all(y > 0))
+
+══ testthat results  ════════════════════════════════════════
+OK: 10 SKIPPED: 0 FAILED: 1
+1. Error: bctrans_inv works on some particular values. (@test_bctrans.R#10) 
+
+Error: testthat unit tests failed
+Execution halted
